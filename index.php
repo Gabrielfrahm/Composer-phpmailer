@@ -9,7 +9,7 @@ use Composer\Email;
 
 
 $novoEmail =  new Email;
-$novoEmail->sendMail("Testando email por hotmail.com","<h1>teste de email</h1>","gabriel_frahm@hotmail.com","Gabriel","gabriel.marques@dorconsultoria.com.br","Gabriel");
+$novoEmail->sendMail("Testando email por hotmail.com","<h1>teste de email</h1>","seuEmail@hotmail.com","Gabriel","seuEmail@hotmail.com","Gabriel");
 
 var_dump($novoEmail);
 ?>

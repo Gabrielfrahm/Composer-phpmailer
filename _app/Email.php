@@ -21,15 +21,15 @@ class Email {
         $this->mail->Host       = 'smtp.live.com';                    
         $this->mail->SMTPAuth = false;
         $this->mail->SMTPSecure = false;                                 
-        $this->mail->Username   = 'gabriel_frahm@hotmail.com';                   
-        $this->mail->Password   = 'pokemon12345';                              
+        $this->mail->Username   = 'seuEmail@hotmail.com';                   
+        $this->mail->Password   = 'suasenha';                              
         $this->mail->SMTPSecure = 'tls';       
         $this->mail->Port       = 587;  
         $this->mail->CharSet    = 'utf-8';
         $this->mail->SMTPAuth = true;
         $this->mail->setLanguage('br');
         $this->mail->isHTML(true);
-        $this->mail->setFrom('gabriel_frahm@hotmail.com', 'teste');
+        $this->mail->setFrom('seuEmail@hotmail.com', 'teste');
     
     
 
