@@ -1,0 +1,23 @@
+{
+    "name": "gabriel.marques/composer",
+    "type": "library",
+    "license": "MIt",
+    "authors": [
+        {
+            "name": "Gabriel Marques",
+            "email": "gabriel_frahm@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.0.x"
+    },
+    "config":{
+        "vendor-dir": "lib_ext"
+    },
+    "autoload":{
+        "psr-4": {
+            "Composer\\": "_app"
+        }
+    } 
+}
